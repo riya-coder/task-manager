@@ -156,8 +156,7 @@ main {
 
 /* task */
 .task-list{
-   list-style: "none";
-  
+   list-style: "none";  
 }
 .task-list li{
   width: 100%;
@@ -173,9 +172,12 @@ main {
   border-radius: 5px; 
 }
 .task-list li p{
+  font-size: 0.95rem;
+  line-height: 1.2rem;
+  /* to handle horizontal and vertical overflow */
   width: 98%;
-  height: 55px;
-  word-wrap: break-word;
+  max-height: 40px;
+  word-wrap: break-word; 
   overflow: auto;
 }
 
