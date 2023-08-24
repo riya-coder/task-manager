@@ -1,2 +1,2 @@
 # task-manager
-  Site link: [Tasks](https://complete-your-tasks.netlify.app/)https://complete-your-tasks.netlify.app/)
+  Site link: [Tasks](https://complete-your-tasks.netlify.app/)
