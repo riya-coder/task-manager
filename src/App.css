@@ -164,7 +164,7 @@ main {
   margin: auto;
   height: 60px;
   background-color: #f7f7f7;
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 15px;
@@ -172,11 +172,12 @@ main {
   margin-bottom:4px;
   border-radius: 5px; 
 }
-li .task-name{
+.task-list li p{
+  width: 98%;
+  height: 55px;
+  word-wrap: break-word;
   overflow: auto;
-
 }
-
 
 .trash-icon{
  width:20px;
